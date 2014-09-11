@@ -1,0 +1,25 @@
+{
+  "name": "Yoble",
+  "version": "0.0.1",
+  "authors": [
+    "viniciusdovale <viniciusdovale10@gmail.com>"
+  ],
+  "description": "app yoble",
+  "main": "assets/js/main.js",
+  "keywords": [
+    "yoble"
+  ],
+  "license": "MIT",
+  "homepage": "yoble.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
