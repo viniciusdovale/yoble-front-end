@@ -938,7 +938,7 @@ iframe {
 /* Thirds */
 .uk-width-1-3,
 .uk-width-2-6 {
-  width: 33.333%;
+  width: 22.01%;
 }
 .uk-width-2-3,
 .uk-width-4-6 {
@@ -1847,8 +1847,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
    Component: Navbar
  ========================================================================== */
 .uk-navbar {
-  background: #eeeeee;
-  color: #444444;
+ color: #ffffff;
 }
 /*
  * Micro clearfix
@@ -1887,13 +1886,12 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   box-sizing: border-box;
   text-decoration: none;
   /* 1 */
-  height: 40px;
-  padding: 0 15px;
-  line-height: 40px;
+  height: 60px;
+  padding: 0 25px;
+  line-height: 60px;
   /* 2 */
-  color: #444444;
-  font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 15px;
   font-weight: normal;
 }
 /* Appear not as link */
@@ -1909,20 +1907,23 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li.uk-open > a {
-  background-color: #f5f5f5;
-  color: #444444;
+  background-color: #50597b;
+  color: #fff;
   /* 3 */
   outline: none;
+  border-bottom: 4px solid #11a8ab
 }
 /* OnClick */
 .uk-navbar-nav > li > a:active {
-  background-color: #dddddd;
-  color: #444444;
+  background-color: #50597b;
+  color: #fff;
+  border-bottom: 4px solid #11a8ab
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  background-color: #f5f5f5;
-  color: #444444;
+  background-color: #50597b;
+  color: #fff;
+  border-bottom: 4px solid #11a8ab
 }
 /* Sub-objects: `uk-navbar-nav-subtitle`
  ========================================================================== */
@@ -6745,11 +6746,11 @@ a.uk-thumbnail:focus {
  */
 .uk-link-muted,
 .uk-link-muted a {
-  color: #444444;
+  color: #fff;
 }
 .uk-link-muted:hover,
 .uk-link-muted a:hover {
-  color: #444444;
+  color: #11a8ab;
 }
 /*
  * Reset link style
