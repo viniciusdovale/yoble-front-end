@@ -420,4 +420,122 @@ a:hover {text-decoration:none}
 
 #search-comunidades button:hover {
 	background-color: #394264
+}
+
+#interacao-comunidade:after {
+	visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+
+}
+
+.descricao-comunidade {
+	width: 50% !important;
+	margin: 0 8px
+}
+
+#interacao-comunidade {
+	padding-left: 0;
+	margin-top: 20px;
+}
+
+#interacao-comunidade li {
+	float: left;
+	padding: 0 17px;
+	text-align: center;
+	list-style: none;
+	border-right: 1px solid #ccc
+}
+#interacao-comunidade li:last-child {
+	border-right: 0;
+	padding-right: 0
+}
+#interacao-comunidade span {
+	display: block
+}
+
+#interacao-comunidade button {
+	width: 172px;
+	font-size: 13px;
+	margin-left: 81px;
+	margin-top: 0
+}
+#participar-comunidade h1 {
+	font-size: 18px;
+	font-weight: 700
+}
+#texto-comunidade {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+#participar-comunidade {
+	background-color: #fff;
+	padding: 10px
+}
+
+#forum-comunidade {
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 30px;
 } 
+
+#forum-comunidade h1 {
+	font-size: 18px;
+	font-weight: 700
+}
+.descricao-post {
+	margin-left: 10px
+}
+.descricao-post h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 16px !important;
+	line-height: 20px !important;
+	color: #666
+}
+.descricao-post h2 a {
+	color: #11a8ab
+}
+.post-forum:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#img-destaque-comunidade {
+	margin-bottom: 10px;
+}
+.interacao-forum {
+	padding: 0;
+	list-style: none;
+	margin-top: 5px
+}
+.interacao-forum li {
+	display: inline-block;
+	padding: 0 7px;
+	border-right: 1px solid #ccc
+}
+.interacao-forum li:last-child {
+	border-right: 0;
+	padding-right: 0;
+	color: #394264;
+}
+.interacao-forum li:first-child {
+	padding-left: 0;
+
+}
+.post-forum {
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f1f1f1
+}
+.post-forum:last-child {
+	border-bottom: 0
+}
