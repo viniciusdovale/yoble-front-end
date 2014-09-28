@@ -440,6 +440,10 @@ a:hover {text-decoration:none}
 #interacao-comunidade {
 	padding-left: 0;
 	margin-top: 20px;
+	color: #666
+}
+#interacao-comunidade a {
+	color: #666
 }
 
 #interacao-comunidade li {
@@ -538,4 +542,15 @@ a:hover {text-decoration:none}
 }
 .post-forum:last-child {
 	border-bottom: 0
+}
+.descricao-forum {
+	width: 75% !important;
+	margin-left: 30px;
+}
+.resposta-forum-user {
+	width: 750px;
+	margin-left: 15px;
+}
+#topo-post-forum {
+	margin-top: 20px;
 }
