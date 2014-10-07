@@ -554,3 +554,88 @@ a:hover {text-decoration:none}
 #topo-post-forum {
 	margin-top: 20px;
 }
+.user-membros {
+	text-align: center;
+	padding: 5px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 5px 0 #CFCFCF;
+	box-shadow: 0 0 5px 0 #CFCFCF;
+	margin: 5px;
+}
+.user-membros li {
+	list-style: none;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	text-indent: -9999px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.user-membros a {
+	color: #394264
+}
+.user-membros a:hover {
+	color: #11a8ab;
+	text-decoration: none
+}
+.user-membros ul {
+	padding: 0
+}
+#bt-banir {
+	background: url(../img/bt-banir.jpg) 0 0 no-repeat;
+}
+#bt-remover {
+	background: url(../img/bt-remover.jpg) 0 0 no-repeat;
+}
+#bt-moderador {
+	background: url(../img/bt-moderador.jpg) 0 0 no-repeat;
+}
+#bt-banir:hover,
+#bt-remover:hover,
+#bt-moderador:hover {
+	background-position: 0 -26px
+}
+.page-membros {
+	width: 75% !important;
+	margin-left: 30px;
+}
+.page-membros h1 {
+	font-size: 26px;
+}
+.page-membros h1 span {
+	font-size: 11px;
+	font-weight: 600
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#paginacao {
+	padding: 0
+}
+#paginacao li {
+	display: inline-block;
+}
+
+#paginacao a {
+	display: inline-block;
+	padding: 3px 10px;
+	background-color: #ccc;
+	color: #666
+}
+#paginacao a.numbers {
+	background-color: #394264;
+	color: #fff
+}
+#paginacao a.atual {
+	background-color: #11a8ab;
+	color: #fff
+}
